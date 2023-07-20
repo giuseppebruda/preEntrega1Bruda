@@ -1,0 +1,128 @@
+[
+    {
+        "id" : 1,
+        "Pais" : "Argentina",
+        "ciudad" : "calafate",
+        "descripcion" : "lorem ipsum ...",
+        "precio" : 100,
+        "img" : "https://dummyimage.com/200x200/000/fff",
+        "category": "local"
+    },
+    {
+        "id" : 2,
+        "Pais" : "colombia",
+        "ciudad" : "cartagena",
+        "descripcion" : "lorem ipsum ...",
+        "precio" : 1000,
+        "img" : "https://dummyimage.com/200x200/000/fff",
+        "category": "internacional"
+    },
+    {
+        "id" : 3,
+        "pais" : "Canada",
+        "ciudad": "vancouver",
+        "descripcion" : "lorem ipsum ...",
+        "precio" : 2800,
+        "img" : "https://dummyimage.com/200x200/000/fff",
+        "category": "internacional"
+    },
+    {
+        "id" : 4,
+        "Pais" : "Brasil",
+        "ciudad" : "Rio de janeiro",
+        "descripcion" : "lorem ipsum ...",
+        "precio" : 300,
+        "img" : "https://dummyimage.com/200x200/000/fff",
+        "category": "internacional"
+    },
+    {
+        "id" : 5,
+        "Pais" : "Argentina",
+        "ciudad" : "tierra del fuego",
+        "descripcion" : "lorem ipsum ...",
+        "precio" : 120,
+        "img" : "https://dummyimage.com/200x200/000/fff",
+        "category": "local"
+    },
+    {
+        "id" : 6,
+        "Pais" : "Argentina",
+        "ciudad" : "Jujuy",
+        "descripcion" : "lorem ipsum ...",
+        "precio" : 60,
+        "img" : "https://dummyimage.com/200x200/000/fff",
+        "category": "local"
+    },
+    {
+        "id" : 7,
+        "Pais" : "Ecuador",
+        "ciudad" : "Quito",
+        "descripcion" : "lorem ipsum ...",
+        "precio" : 1500,
+        "img" : "https://dummyimage.com/200x200/000/fff",
+        "category": "internacional"
+    },
+    {
+        "id" : 8,
+        "Pais" : "Brasil",
+        "ciudad" : "Buzios",
+        "descripcion" : "lorem ipsum ...",
+        "precio" : 300,
+        "img" : "https://dummyimage.com/200x200/000/fff",
+        "category": "internacional"
+    },
+    {
+        "id" : 9,
+        "Pais" : "Republica dominicana",
+        "ciudad" : "Punta cana ",
+        "descripcion" : "lorem ipsum ...",
+        "precio" : 1100,
+        "img" : "https://dummyimage.com/200x200/000/fff",
+        "category": "internacional"
+    },
+    {
+        "id" : 10,
+        "Pais" : "Mexico",
+        "ciudad" : "Cancun",
+        "descripcion" : "lorem ipsum ...",
+        "precio" : 2000,
+        "img" : "https://dummyimage.com/200x200/000/fff",
+        "category": "internacional"
+    },   
+    {
+        "id" : 11,
+        "Pais" : "mexico",
+        "ciudad" : "Ciudad de mexico",
+        "descripcion" : "lorem ipsum ...",
+        "precio" : 1500,
+        "img" : "https://dummyimage.com/200x200/000/fff",
+        "category": "internacional"
+    },
+    {
+        "id" : 12,
+        "Pais" : "Chile",
+        "ciudad" : "Santiago",
+        "descripcion" : "lorem ipsum ...",
+        "precio" : 160,
+        "img" : "https://dummyimage.com/200x200/000/fff",
+        "category": "internacional"
+    },  
+    {
+        "id" : 13,
+        "Pais" : "Peru",
+        "ciudad" : "Lima",
+        "descripcion" : "lorem ipsum ...",
+        "precio" : 900,
+        "img" : "https://dummyimage.com/200x200/000/fff",
+        "category": "internacional"
+    },
+    {
+        "id" : 14,
+        "Pais" : "Venezuela",
+        "ciudad" : "Isla de Margarita",
+        "descripcion" : "lorem ipsum ...",
+        "precio" : 1200,
+        "img" : "https://dummyimage.com/200x200/000/fff",
+        "category": "internacional"
+    }
+]

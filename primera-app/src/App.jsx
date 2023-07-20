@@ -1,12 +1,25 @@
-import { Header } from './component/header/Header'
+import { Header } from './component/Header/Header' 
+import { LandingPage } from './component/home/LandingPage'
 import { ItemListContainer } from './component/itemListContainer/ItemListContainer'
+import { Nosotros } from './component/nosotros/Nosotros'
+import { Promociones } from './component/promociones/promociones' 
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <Header />
-      <ItemListContainer saludo ="bienvenido"/>
-    </div>
+
+      <Routes>
+        <Route path='/' element={<LandingPage/>} />
+        <Route path='/destinos/:categoryId' element={<ItemListContainer/>}/>
+        <Route path='/destinos' element={<ItemListContainer/>}/>
+        <Route path='/nosotros' element={<Nosotros/>}/>
+        <Route path='/promociones' element={<Promociones/>}/>
+        <Route path='*' element={ <Navigate to="/"/> } />
+      </Routes>
+    </BrowserRouter>
+      
   )
 }
 
