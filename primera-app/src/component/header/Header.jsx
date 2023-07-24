@@ -12,8 +12,8 @@ export const Header = () => {
                     <li className="nav__item"><Link to="/destinos">destinos</Link></li>
                     <li className="nav__item"><Link to="/promociones">promociones</Link></li>
                     <li className="nav__item"><Link to="/nosotros">nosotros</Link></li>
-                    <li className="nav__item"><Link to="/destinos/locales">locales</Link></li>
-                    <li className="nav__item"><Link to="/destinos/internacionales">internacionales</Link></li>
+                    <li className="nav__item"><Link to="/destinos/local">locales</Link></li>
+                    <li className="nav__item"><Link to="/destinos/internacional">internacionales</Link></li>
                 </ul>
             </nav>
             <div className="carrito__container">

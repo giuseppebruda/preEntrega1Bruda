@@ -1,5 +1,6 @@
-import { Header } from './component/Header/Header' 
+import { Header } from './component/header/Header' 
 import { LandingPage } from './component/home/LandingPage'
+import ItemDetailContainer from './component/itemDetailContainer/ItemDetailContainer'
 import { ItemListContainer } from './component/itemListContainer/ItemListContainer'
 import { Nosotros } from './component/nosotros/Nosotros'
 import { Promociones } from './component/promociones/promociones' 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<LandingPage/>} />
         <Route path='/destinos/:categoryId' element={<ItemListContainer/>}/>
+        <Route path='/detail/:itemId' element={<ItemDetailContainer/>}/>
         <Route path='/destinos' element={<ItemListContainer/>}/>
         <Route path='/nosotros' element={<Nosotros/>}/>
         <Route path='/promociones' element={<Promociones/>}/>

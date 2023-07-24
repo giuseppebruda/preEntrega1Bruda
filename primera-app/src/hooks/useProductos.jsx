@@ -1,13 +1,12 @@
 import { useEffect, useState } from "react"
 import { pedirDatos } from "../helpers/pedirDatos"
-import { useParams } from "react-router-dom"
 
-export const useProductos = () => {
+
+export const useProductos = (categoryId) => {
     const [productos, setProductos] = useState([])
     const [loading , setLoading] = useState(true)
 
-    const {categoryId} = useParams()
-    console.log(categoryId);
+    
     useEffect (() => {
         setLoading(true)
 
@@ -23,7 +22,7 @@ export const useProductos = () => {
         .finally(()=> {
             setLoading(false)
         })
-    },[])
+    },[categoryId])
 
 
     return {productos, loading}
