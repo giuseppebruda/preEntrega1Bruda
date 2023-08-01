@@ -1,0 +1,51 @@
+.navbar__icon{
+    width: 40px;
+    height:  40px;
+    margin-top: 56px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu__backdrop{
+
+    background-color: rgba($color: #000000, $alpha: 0.2);
+    position: fixed;
+    inset: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .13s;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    width: 200px;
+    height: 380px;
+    right: -400px;
+    align-items: center;
+    margin-left: 920px;
+    margin-top: 137px;
+    margin-bottom: 30px;
+    transition: top .15s ease-in-out ;
+    background-color:  rgb(189, 189, 189);
+}
+
+.nav__item{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.menu-active{
+    .menu__backdrop{
+    visibility: visible;
+    opacity: 1;
+    }
+    .nav{
+        right:800px;
+        
+    }
+}

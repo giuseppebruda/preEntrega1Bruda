@@ -1,21 +1,13 @@
 import "./Header.scss"
 import { Link } from "react-router-dom"
+import Menu from "../nav/Menu"
 
 export const Header = () => {
 
     return(
         <header className="header">
             <h1 className="title">GB viajes</h1>
-            <nav className="nav">
-                <ul className="nav__container">
-                    <li className="nav__item"><Link to="/">home</Link></li>
-                    <li className="nav__item"><Link to="/destinos">destinos</Link></li>
-                    <li className="nav__item"><Link to="/promociones">promociones</Link></li>
-                    <li className="nav__item"><Link to="/nosotros">nosotros</Link></li>
-                    <li className="nav__item"><Link to="/destinos/local">locales</Link></li>
-                    <li className="nav__item"><Link to="/destinos/internacional">internacionales</Link></li>
-                </ul>
-            </nav>
+            <Menu/>
             <div className="carrito__container">
             <img className="carrito" src="/carrito.svg" alt="carrito" />
             <br />

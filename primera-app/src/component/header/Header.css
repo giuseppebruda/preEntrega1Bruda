@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(189, 189, 189);
+}
+
+.title {
+  margin: 25px;
+  padding: 25px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.carrito__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.carrito {
+  height: 50px;
+  width: 40px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.counter {
+  margin-top: 40px;
+  margin-right: 30px;
+  padding-right: 40px;
+}/*# sourceMappingURL=Header.css.map */
