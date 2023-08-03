@@ -6,7 +6,8 @@
         "descripcion" : "lorem ipsum ...",
         "precio" : 100,
         "img" : "https://dummyimage.com/200x200/000/fff",
-        "category": "local"
+        "category": "local",
+        "stock" : 10
     },
     {
         "id" : 2,
@@ -15,7 +16,8 @@
         "descripcion" : "lorem ipsum ...",
         "precio" : 1000,
         "img" : "https://dummyimage.com/200x200/000/fff",
-        "category": "internacional"
+        "category": "internacional",
+        "stock" : 40
     },
     {
         "id" : 3,
@@ -24,7 +26,8 @@
         "descripcion" : "lorem ipsum ...",
         "precio" : 2800,
         "img" : "https://dummyimage.com/200x200/000/fff",
-        "category": "internacional"
+        "category": "internacional",
+        "stock" : 30
     },
     {
         "id" : 4,
@@ -33,7 +36,8 @@
         "descripcion" : "lorem ipsum ...",
         "precio" : 300,
         "img" : "https://dummyimage.com/200x200/000/fff",
-        "category": "internacional"
+        "category": "internacional",
+        "stock" : 20
     },
     {
         "id" : 5,
@@ -42,7 +46,8 @@
         "descripcion" : "lorem ipsum ...",
         "precio" : 120,
         "img" : "https://dummyimage.com/200x200/000/fff",
-        "category": "local"
+        "category": "local",
+        "stock" : 15
     },
     {
         "id" : 6,
@@ -51,7 +56,8 @@
         "descripcion" : "lorem ipsum ...",
         "precio" : 60,
         "img" : "https://dummyimage.com/200x200/000/fff",
-        "category": "local"
+        "category": "local",
+        "stock" : 60
     },
     {
         "id" : 7,
@@ -60,7 +66,8 @@
         "descripcion" : "lorem ipsum ...",
         "precio" : 1500,
         "img" : "https://dummyimage.com/200x200/000/fff",
-        "category": "internacional"
+        "category": "internacional",
+        "stock" : 20
     },
     {
         "id" : 8,
@@ -69,7 +76,8 @@
         "descripcion" : "lorem ipsum ...",
         "precio" : 300,
         "img" : "https://dummyimage.com/200x200/000/fff",
-        "category": "internacional"
+        "category": "internacional",
+        "stock" : 15
     },
     {
         "id" : 9,
@@ -78,7 +86,8 @@
         "descripcion" : "lorem ipsum ...",
         "precio" : 1100,
         "img" : "https://dummyimage.com/200x200/000/fff",
-        "category": "internacional"
+        "category": "internacional",
+        "stock" : 28
     },
     {
         "id" : 10,
@@ -87,7 +96,8 @@
         "descripcion" : "lorem ipsum ...",
         "precio" : 2000,
         "img" : "https://dummyimage.com/200x200/000/fff",
-        "category": "internacional"
+        "category": "internacional",
+        "stock" : 19
     },   
     {
         "id" : 11,
@@ -96,7 +106,8 @@
         "descripcion" : "lorem ipsum ...",
         "precio" : 1500,
         "img" : "https://dummyimage.com/200x200/000/fff",
-        "category": "internacional"
+        "category": "internacional",
+        "stock" : 113
     },
     {
         "id" : 12,
@@ -105,7 +116,8 @@
         "descripcion" : "lorem ipsum ...",
         "precio" : 160,
         "img" : "https://dummyimage.com/200x200/000/fff",
-        "category": "internacional"
+        "category": "internacional",
+        "stock" : 14
     },  
     {
         "id" : 13,
@@ -114,7 +126,8 @@
         "descripcion" : "lorem ipsum ...",
         "precio" : 900,
         "img" : "https://dummyimage.com/200x200/000/fff",
-        "category": "internacional"
+        "category": "internacional",
+        "stock" : 10
     },
     {
         "id" : 14,
@@ -123,6 +136,7 @@
         "descripcion" : "lorem ipsum ...",
         "precio" : 1200,
         "img" : "https://dummyimage.com/200x200/000/fff",
-        "category": "internacional"
+        "category": "internacional",
+        "stock" : 5
     }
 ]
