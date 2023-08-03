@@ -2,17 +2,15 @@ import { useState } from "react"
 
 
 
-const ItemCount = ({max, counter, setcounter}) =>{
-
-    const [counter, setcounter] = useState(1)
+const ItemCount = ({max, counter, setCounter, agregar}) =>{
 
     const handleRestar = () =>{
-        counter > 1 && setcounter(counter - 1)
+        counter > 1 && setCounter(counter - 1)
         
     }
 
     const handleSumar = () => {
-        counter < max && setcounter(counter +1)
+        counter < max && setCounter(counter +1)
     }
 
     return(
@@ -21,7 +19,7 @@ const ItemCount = ({max, counter, setcounter}) =>{
             <span>cantidad:{counter} </span>
             <button onClick={handleRestar}>-</button>  
             <br />
-            <button>agregar al carrito</button>
+            <button onClick={agregar}>agregar al carrito</button>
         </div>
     )
 }

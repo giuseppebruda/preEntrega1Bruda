@@ -9,7 +9,7 @@ const MenuList = ({handelClouse}) => {
             <Link onClick={handelClouse} className="nav__item" to="/">home</Link>
             <Link onClick={handelClouse} className="nav__item" to="/destinos">destinos</Link>
             <Link onClick={handelClouse} className="nav__item" to="/promociones">promociones</Link>
-            <Link onClick={handelClouse} className="nav__item" to="/nosotros">contacto</Link>
+            <Link onClick={handelClouse} className="nav__item" to="/contacto">contacto</Link>
             <Link onClick={handelClouse} className="nav__item" to="/destinos/local">locales</Link>
             <Link onClick={handelClouse} className="nav__item" to="/destinos/internacional">internacionales</Link>
     </nav>
