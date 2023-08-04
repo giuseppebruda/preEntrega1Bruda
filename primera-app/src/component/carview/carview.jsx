@@ -1,10 +1,10 @@
 import { useContext } from "react"
 import { CarContext } from "../../context/CarContext"
-
+import {BsTrash} from "react-icons/bs"
 
 
 const CarView  = () => {
-    const {Car} = useContext(CarContext)
+    const {car, totalCompra,vaciarCarrito,removerDelCarrito} = useContext(CarContext)
 
     return(
         <div>
@@ -12,16 +12,22 @@ const CarView  = () => {
             <hr />
 
             {
-                Car.map((item) => (
-                    <div>
+                car.map((item) => (
+                    <div key={item.id}>
                         <h3>{item.ciudad}</h3>
                         <img src={item.img} alt={item.ciudad} />
                         <p>precio: ${item.precio * item.cantidad}</p>
                         <p>cantidad : {item.cantidad}</p>
                         <hr />
+                        <button className="btn btn-danger" onClick={() => removerDelCarrito(item.id)}><BsTrash/></button>
                     </div>
                 ))
+
             }
+            <div>
+            <h3>total: ${totalCompra()}</h3>
+            <button onClick={vaciarCarrito}>Vaciar el carrito</button>
+            </div>
         </div>
     )
 }

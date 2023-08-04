@@ -1,6 +1,7 @@
 import "./Header.scss"
 import { Link } from "react-router-dom"
 import Menu from "../nav/Menu"
+import CarWidget from "./CarWidget"
 
 export const Header = () => {
 
@@ -8,12 +9,7 @@ export const Header = () => {
         <header className="header">
             <h1 className="title">GB viajes</h1>
             <Menu/>
-            <div className="carrito__container">
-            <img className="carrito" src="/carrito.svg" alt="carrito" />
-            <br />
-            <p className="counter">0</p>
-            </div>
-            
+            <CarWidget/>
         </header>
     )
 }
