@@ -1,8 +1,9 @@
 .card__container{
-display: flex;
-justify-content: space-between;
-flex-direction: row;
-height: 100%;
-width: 100fr;
+    display: grid;
+    grid-template-columns: 1, 4fr;
+}
 
+.card__ciudad{
+    font-size: 25px;
+    
 }
