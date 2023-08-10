@@ -1,6 +1,7 @@
 import { useContext } from "react"
 import { CarContext } from "../../context/CarContext"
 import {BsTrash} from "react-icons/bs"
+import { Link } from "react-router-dom"
 
 
 const CarView  = () => {
@@ -8,7 +9,16 @@ const CarView  = () => {
 
     return(
         <div>
-            <h2>tu compra</h2>
+            {
+                car.length === 0
+                ? <>
+                <h2> carito vacio :(</h2>
+                <hr />
+
+                <button className="btn btn-primary"><Link to= "/destinos">ir a comprar</Link></button>
+                </>
+                :<>
+                <h2>tu compra</h2>
             <hr />
 
             {
@@ -28,6 +38,9 @@ const CarView  = () => {
             <h3>total: ${totalCompra()}</h3>
             <button onClick={vaciarCarrito}>Vaciar el carrito</button>
             </div>
+                </>
+            }
+            
         </div>
     )
 }

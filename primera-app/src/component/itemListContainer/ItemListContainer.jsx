@@ -2,6 +2,7 @@ import "./itemListStyle.scss"
 import ItemList from "../itemList/ItemList";
 import { useProductos } from "../../hooks/useProductos";
 import { useParams } from "react-router-dom"
+import Loader from "../loader/Loader";
 
 
 export const ItemListContainer = () => {
@@ -13,7 +14,7 @@ export const ItemListContainer = () => {
         <div >
                         {
                 loading
-                    ? <h2>cargando...</h2>
+                    ? <Loader/>
                     :<ItemList productos={productos}
                     />
             }
