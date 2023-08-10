@@ -8,7 +8,7 @@ import Loader from "../loader/Loader";
 export const ItemListContainer = () => {
     const {categoryId} = useParams()
     const {productos, loading} = useProductos(categoryId)
-    console.log();(productos,loading)
+    console.log();(productos,loading);
     return(
         
         <div >
