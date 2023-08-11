@@ -37,6 +37,7 @@ const CarView  = () => {
             <div>
             <h3>total: ${totalCompra()}</h3>
             <button onClick={vaciarCarrito}>Vaciar el carrito</button>
+            <Link className="btn btn-primary" to= "/checkout" >terminar mi compra</Link>
             </div>
                 </>
             }

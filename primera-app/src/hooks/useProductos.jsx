@@ -13,10 +13,15 @@ export const useProductos = (categoryId) => {
     useEffect (() => {
         setLoading(true)
         // 1 armar la referencia (sync)
-        const productosRef = collection(db, "destinos")
-        const q = query (productosRef, where("category", "==", categoryId))
+        const productosRef = !categoryId
+        ?collection(db, "destinos")
+        :query(
+            collection(db, "destinos"),
+            where("category", "==",categoryId)
+        )
+        
         // 2 llamar la referencia 
-        getDocs(q)
+        getDocs(productosRef)
         .then((res) =>{
             const docs = res.docs.map((doc) => {
                 return{

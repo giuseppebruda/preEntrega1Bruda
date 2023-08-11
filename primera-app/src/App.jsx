@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { CarContext, CarProvider } from './context/CarContext'
 import CarView from './component/carview/carview'
+import Checkout from './component/checkout/Checkout'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path='/destinos' element={<ItemListContainer/>}/>
         <Route path='/contacto' element={<Contacto/>}/>
         <Route path='/promociones' element={<Promociones/>}/>
+        <Route path='/checkout' element={<Checkout/>}/>
         <Route path='/car' element={<CarView/>}/>
         <Route path='*' element={ <Navigate to="/"/> } />
       </Routes>
