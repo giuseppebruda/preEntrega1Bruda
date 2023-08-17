@@ -5,14 +5,14 @@ import "./itemCard.scss"
 const ItemCard = ({item}) => {
     return(
         <div className="col-3 m-5">
-            <Card style={{ width: '18rem' }}>
+            <Card className="card__container" style={{ width: '18rem' }}>
     <Card.Img variant="top" src={item.img} />
-    <Card.Body>
-        <Card.Title className="card__pais">{item.pais}</Card.Title>
-        <Card.Title className="card__ciudad">{item.ciudad}</Card.Title>
-        <Card.Text className="card__descripcion"  >{item.descripcionCorta}</Card.Text>
-        <Card.Text className="card__precio"  ><p>precio: ${item.precio}</p></Card.Text>
-        <Button variant=""><Link className="card__verMas" to={`/detail/${item.id}`}> ver mas</Link></Button>
+    <Card.Body className="card__body">
+        <Card.Title><p className="card__pais">{item.pais}</p></Card.Title>
+        <Card.Title><p className="card__ciudad">{item.ciudad}</p></Card.Title>
+        <Card.Text><p className="card__descripcion">{item.descripcionCorta}</p></Card.Text>
+        <Card.Text><p className="card__precio">precio: ${item.precio}</p></Card.Text>
+        <Link className="card__verMas" to={`/detail/${item.id}`}> ver mas</Link>
     </Card.Body>
     </Card>
             </div>

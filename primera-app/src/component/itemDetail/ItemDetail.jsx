@@ -19,9 +19,9 @@ const ItemDetail = ({item}) => {
     }
     return ( 
         <div>
+            <img src={item.img} alt={item.ciudad} />
             <h2>{item.pais}</h2>
             <h2>{item.ciudad}</h2>
-            <img src={item.img} alt={item.ciudad} />
             <p>{item.descripcion}</p>
 
             {

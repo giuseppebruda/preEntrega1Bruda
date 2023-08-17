@@ -1,9 +1,52 @@
-.card__container{
-    display: grid;
-    grid-template-columns: 1, 4fr;
-}
-
 .card__ciudad{
     font-size: 25px;
     
 }
+.card__body{
+    background-color: #b5b5b5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card__pais{
+    font-size: 25px;
+    font-weight: lighter;
+    color: black;
+}
+.card__ciudad{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card__descripcion{
+    text-align: justify;
+    font-weight: lighter;
+}
+
+.card__precio{
+    font-weight: bolder;
+}
+
+.card__verMas{
+    text-decoration: none;
+    color: black;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #8c8c8c;
+}
+.card__container{
+    box-shadow: 0px 1px 10px 0 #dcdcdc5e;
+    border-radius: 30px;
+    transition: all 400ms ease;
+}
+.card__container:hover{
+box-shadow: 5px 5px 20px rgba(0,0,0,0.4) ;
+transform: translateY(-3%);
+}
+
+.card__verMas:hover{
+    color: white;
+    border: 5px solid white;
+}
+

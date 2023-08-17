@@ -11,7 +11,7 @@ export const ItemListContainer = () => {
     console.log();(productos,loading);
     return(
         
-        <div >
+        <div  className="item__container">
                         {
                 loading
                     ? <Loader/>

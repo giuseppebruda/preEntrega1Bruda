@@ -2,7 +2,7 @@
     width: 40px;
     height:  40px;
     margin-top: 56px;
-    color: white;
+    color: black;
     cursor: pointer;
 }
 
@@ -14,6 +14,8 @@
     visibility: hidden;
     opacity: 0;
     transition: all .13s;
+    z-index: 1000;
+    
 }
 
 .nav {
@@ -29,13 +31,13 @@
     margin-top: 137px;
     margin-bottom: 30px;
     transition: top .15s ease-in-out ;
-    background-color:  rgb(189, 189, 189);
+    background-color:  #b5b5b5;
 }
 
 .nav__item{
     font-size: 20px;
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: 700;
 }
 

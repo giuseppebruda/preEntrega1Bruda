@@ -15,13 +15,15 @@ margin: 25px;
 padding: 25px;
 font-size: 30px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: white;
+color: black;
 }
 
 
 .carrito__container {
     display: flex;
     flex-direction: row;
+    text-decoration: none;
+    color: black;
 }
 .carrito {
     height: 50px;
