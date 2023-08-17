@@ -1,4 +1,4 @@
-import { useState } from "react"
+import "./itemDetail.scss"
 
 
 
@@ -14,12 +14,12 @@ const ItemCount = ({max, counter, setCounter, agregar}) =>{
     }
 
     return(
-        <div>
-            <button onClick={handleSumar}>+</button>
+        <div className="count__container">
+            <button className="count__botton" onClick={handleSumar}>+</button>
             <span>cantidad:{counter} </span>
-            <button onClick={handleRestar}>-</button>  
+            <button className="count__botton" onClick={handleRestar}>-</button>  
             <br />
-            <button onClick={agregar}>agregar al carrito</button>
+            <button className="button__add" onClick={agregar}>agregar al carrito</button>
         </div>
     )
 }
